@@ -1,0 +1,16 @@
+{
+ "name": "illuminate-example/eloquent",
+ "description": "Implementation of Database Queries with illuminate and Eloquent",
+ "type": "project",
+ "require": {
+ "illuminate/database": "5.6.21",
+  "twig/twig": "^2.5"
+  },
+ "autoload": 
+    {"psr-4": 
+        { "Controllers\\": "app/controllers/",
+            "Models\\": "app/models/"
+             
+                 }
+    }
+}
